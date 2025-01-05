@@ -28,8 +28,8 @@
 
 <ul>
     <li><a href="https://www.nicolascodognotto.com.br/">Poritfólio Nícolas Codognotto</a></li>
-    <li><a href="https://blog-doce-amargo.vercel.app/">Blog Doce Amargo</a></li>
     <li><a href="https://github.com/nickycodognotto/landingpage-coffee">Landing page - Coffee</a></li>
+    <li><a href="https://github.com/nickycodognotto/jogo_memoria">Jogo da memoria</a></li>
     <li><a href="https://github.com/nickycodognotto/calculadora_flask">Calculadora Flask</a></li>
 </ul>
 
