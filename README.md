@@ -1,6 +1,8 @@
-<p align="center">
-  <img src="https://media1.tenor.com/m/aGr4zxUYzSgAAAAd/dcbanner-discord.gif" width="480">
-</p>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/nickycodognotto/nickycodognotto/output/github-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/nickycodognotto/nickycodognotto/output/github-snake-purple.svg">
+  <img alt="Cobrinha comendo meu gráfico de contribuições" src="https://raw.githubusercontent.com/nickycodognotto/nickycodognotto/output/github-snake-dark.svg">
+</picture>
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/151.gif" height="64" alt="Mew">
@@ -78,25 +80,13 @@ const nicolas = {
 ## 📊 GitHub Analytics
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=nickycodognotto&show_icons=true&theme=radical&hide_border=true&bg_color=1A1024&title_color=FF6EC7&icon_color=C77DFF&include_all_commits=true&count_private=true" height="165">
-  <img src="https://streak-stats.demolab.com/?user=nickycodognotto&theme=radical&hide_border=true&background=1A1024&ring=C77DFF&fire=FF6EC7&currStreakLabel=FF6EC7" height="165">
+  <img src="https://raw.githubusercontent.com/nickycodognotto/nickycodognotto/output/stats.svg" height="165" alt="GitHub stats">
+  <img src="https://streak-stats.demolab.com/?user=nickycodognotto&theme=radical&hide_border=true&background=1A1024&ring=C77DFF&fire=FF6EC7&currStreakLabel=FF6EC7&locale=pt_BR" height="165" alt="Streak">
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=nickycodognotto&layout=donut&theme=radical&hide_border=true&bg_color=1A1024&title_color=FF6EC7" height="200">
+  <img src="https://raw.githubusercontent.com/nickycodognotto/nickycodognotto/output/top-langs.svg" height="200" alt="Linguagens mais usadas">
 </p>
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=nickycodognotto&bg_color=1A1024&color=FF6EC7&line=C77DFF&point=FF99DD&area=true&area_color=6B21A8&hide_border=true" width="100%">
-</p>
-
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=nickycodognotto&theme=radical&no-frame=true&no-bg=true&margin-w=8&row=1" height="100">
-</p>
-
-<br>
-
-## 🐍 Contribuições
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/133.gif" height="48" alt="Eevee">
@@ -105,12 +95,6 @@ const nicolas = {
   <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/150.gif" height="48" alt="Mewtwo">
   <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/shiny/151.gif" height="48" alt="Mew shiny">
 </p>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/nickycodognotto/nickycodognotto/output/github-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/nickycodognotto/nickycodognotto/output/github-snake-purple.svg">
-  <img alt="Cobrinha comendo meu gráfico de contribuições" src="https://raw.githubusercontent.com/nickycodognotto/nickycodognotto/output/github-snake-dark.svg">
-</picture>
 
 <br>
 
@@ -132,8 +116,6 @@ const nicolas = {
 <p align="center">
   <img src="https://media1.tenor.com/m/ZtFSz0E1ZjMAAAAd/underwater-pixel-water.gif" width="220">
 </p>
-
-<h2 align="center">Pronto para tirar suas ideias do papel? <br><b>Me chame!</b> ✨</h2>
 
 <p align="center">
     <a href="mailto:nicolascodognotto@gmail.com"><img src="https://img.shields.io/badge/-Gmail-2B1B4D?style=for-the-badge&logo=gmail&logoColor=C77DFF"></a>
