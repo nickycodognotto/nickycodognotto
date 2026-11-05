@@ -15,16 +15,8 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
-      - name: Generate snake SVGs from contribution graph
-        uses: Platane/snk@v3
-        with:
-          github_user_name: ${{ github.repository_owner }}
-          outputs: |
-            dist/github-snake.svg
-            dist/github-snake-dark.svg?palette=github-dark&color_snake=#C77DFF&color_dots=#1A1024,#3B1F5C,#6B21A8,#A855F7,#FF6EC7
-            dist/github-snake-purple.svg?color_snake=#6B21A8&color_dots=#EBEDF0,#E9D5FF,#C084FC,#9333EA,#581C87
-
-      # Cards de stats gerados aqui mesmo (sem depender da instância pública da Vercel)
+      # Cards de stats gerados aqui mesmo (sem depender da instância pública da Vercel).
+      # Rodam ANTES da cobrinha: o container do snk cria dist/ como root e bloqueia escrita depois.
       - name: Generate stats card
         uses: stats-organization/github-readme-stats-action@v2
         with:
@@ -40,6 +32,15 @@ jobs:
           options: username=${{ github.repository_owner }}&layout=donut&langs_count=6&theme=radical&hide_border=true&bg_color=1A1024&title_color=FF6EC7&locale=pt-br
           path: dist/top-langs.svg
           token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generate snake SVGs from contribution graph
+        uses: Platane/snk@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-snake.svg
+            dist/github-snake-dark.svg?palette=github-dark&color_snake=#C77DFF&color_dots=#1A1024,#3B1F5C,#6B21A8,#A855F7,#FF6EC7
+            dist/github-snake-purple.svg?color_snake=#6B21A8&color_dots=#EBEDF0,#E9D5FF,#C084FC,#9333EA,#581C87
 
       - name: Push SVGs to the "output" branch
         uses: crazy-max/ghaction-github-pages@v4
