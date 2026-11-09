@@ -28,7 +28,7 @@
 <div align="center">
 <table>
 <tr>
-<td valign="top">
+<td valign="top" width="420">
 
 ```js
 const nicolas = {
@@ -57,7 +57,7 @@ const nicolas = {
 
 </td>
 <td valign="middle" align="center">
-  <img src="assets/about-me.gif" width="320" alt="Mew flutuando no espaço">
+  <img src="assets/about-me.gif" width="340" alt="Mew flutuando no espaço">
 </td>
 </tr>
 </table>
