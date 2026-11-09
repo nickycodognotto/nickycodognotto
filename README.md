@@ -9,9 +9,6 @@
 </p>
 
 <h1 align="center">Nícolas Codognotto</h1>
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=20&pause=1000&color=C77DFF&center=true&vCenter=true&width=600&lines=Full+Stack+Software+Engineer;Python+%7C+JavaScript+%7C+Clojure;Integrando+IA+em+produtos+reais;Codando+sob+um+c%C3%A9u+estrelado+%E2%9C%A8" alt="Typing SVG" />
-</p>
 
 <br>
 
