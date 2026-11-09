@@ -41,7 +41,7 @@ jobs:
         with:
           USERNAME: ${{ github.repository_owner }}
           THEME: radical
-          TIME_ZONE: America/Sao_Paulo
+          UTC_OFFSET: -3
           NAME: Nícolas Codognotto
           AUTO_PUSH: false
 
@@ -49,7 +49,7 @@ jobs:
         run: |
           mkdir -p dist/summary
           cp profile-summary-card-output/radical/*.svg dist/summary/
-          sed -i 's/#141321/#1A1024/gI' dist/summary/*.svg
+          sed -i -e 's/#141321/#1A1024/gI' -e 's/#f8d847/#C77DFF/gI' dist/summary/*.svg
           ls dist/summary
 
       - name: Generate snake SVGs from contribution graph
