@@ -36,20 +36,28 @@ const nicolas = {
   location: "São Paulo, BR 🌎",
 
   stack: {
-    languages: ["Python", "JavaScript", "TypeScript", "Clojure"],
+    languages: [
+      "Python", "JavaScript",
+      "TypeScript", "Clojure",
+    ],
     frontend: ["React", "Next.js"],
     backend: ["Django", "Flask", "Node.js"],
-    databases: ["PostgreSQL", "Cassandra", "MySQL"],
+    databases: [
+      "PostgreSQL", "Cassandra", "MySQL",
+    ],
     cloud: ["Docker", "AWS", "Kafka"],
   },
 
-  exploring: ["LLM APIs", "Claude Code", "GitHub Copilot", "AI Agents"],
+  exploring: [
+    "LLM APIs", "Claude Code",
+    "GitHub Copilot", "AI Agents",
+  ],
 };
 ```
 
 </td>
 <td valign="middle" align="center">
-  <img src="assets/about-me.gif" width="300" alt="Mew flutuando no espaço">
+  <img src="assets/about-me.gif" width="240" alt="Mew flutuando no espaço">
 </td>
 </tr>
 </table>
