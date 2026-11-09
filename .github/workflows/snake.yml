@@ -15,23 +15,25 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
-      # Cards de stats gerados aqui mesmo (sem depender da instância pública da Vercel).
+      # Cards de analytics gerados aqui mesmo (sem depender de instâncias públicas da Vercel).
       # Rodam ANTES da cobrinha: o container do snk cria dist/ como root e bloqueia escrita depois.
-      - name: Generate stats card
-        uses: stats-organization/github-readme-stats-action@v2
+      - name: Generate profile summary cards
+        uses: vn7n24fzkq/github-profile-summary-cards@release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          card: stats
-          options: username=${{ github.repository_owner }}&show_icons=true&theme=radical&hide_border=true&bg_color=1A1024&title_color=FF6EC7&icon_color=C77DFF&include_all_commits=true&locale=pt-br
-          path: dist/stats.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: ${{ github.repository_owner }}
+          THEME: radical
+          UTC_OFFSET: -3
+          NAME: Nícolas Codognotto
+          AUTO_PUSH: false
 
-      - name: Generate top languages card
-        uses: stats-organization/github-readme-stats-action@v2
-        with:
-          card: top-langs
-          options: username=${{ github.repository_owner }}&layout=donut&langs_count=6&theme=radical&hide_border=true&bg_color=1A1024&title_color=FF6EC7&locale=pt-br
-          path: dist/top-langs.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Copy summary cards into dist (with profile background color)
+        run: |
+          mkdir -p dist/summary
+          cp profile-summary-card-output/radical/*.svg dist/summary/
+          sed -i -e 's/#141321/#1A1024/gI' -e 's/#f8d847/#C77DFF/gI' dist/summary/*.svg
+          ls dist/summary
 
       - name: Generate snake SVGs from contribution graph
         uses: Platane/snk@v3
