@@ -33,6 +33,25 @@ jobs:
           path: dist/top-langs.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
+      # Cards no estilo "profile summary" (perfil + gráfico, linguagens, commits por hora, stats).
+      - name: Generate profile summary cards
+        uses: vn7n24fzkq/github-profile-summary-cards@release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          USERNAME: ${{ github.repository_owner }}
+          THEME: radical
+          TIME_ZONE: America/Sao_Paulo
+          NAME: Nícolas Codognotto
+          AUTO_PUSH: false
+
+      - name: Copy summary cards into dist (with profile background color)
+        run: |
+          mkdir -p dist/summary
+          cp profile-summary-card-output/radical/*.svg dist/summary/
+          sed -i 's/#141321/#1A1024/gI' dist/summary/*.svg
+          ls dist/summary
+
       - name: Generate snake SVGs from contribution graph
         uses: Platane/snk@v3
         with:

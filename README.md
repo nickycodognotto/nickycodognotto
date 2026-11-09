@@ -10,6 +10,17 @@
 
 <h1 align="center">Nícolas Codognotto</h1>
 
+<p align="center">
+  <b>Full Stack Software Engineer</b> · Python · Clojure · React · AI Agents
+</p>
+
+<p align="center">
+    <a href="mailto:nicolascodognotto@gmail.com"><img src="https://img.shields.io/badge/-Gmail-2B1B4D?style=for-the-badge&logo=gmail&logoColor=C77DFF"></a>
+    <a href="https://www.linkedin.com/in/n%C3%ADcolas-codognotto-1bba4a240/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-2B1B4D?style=for-the-badge&logo=linkedin&logoColor=C77DFF"></a>
+    <a href="https://www.nicolascodognotto.com.br" target="_blank"><img src="https://img.shields.io/badge/-Portf%C3%B3lio-2B1B4D?style=for-the-badge&logo=internet-explorer&logoColor=C77DFF"></a>
+    <a href="https://instagram.com/nicko.codognotto" target="_blank"><img src="https://img.shields.io/badge/-Instagram-2B1B4D?style=for-the-badge&logo=instagram&logoColor=C77DFF"></a>
+</p>
+
 <br>
 
 ## 🌙 About Me
@@ -17,7 +28,7 @@
 <div align="center">
 <table>
 <tr>
-<td>
+<td valign="top">
 
 ```js
 const nicolas = {
@@ -34,11 +45,19 @@ const nicolas = {
   },
 
   exploring: ["LLM APIs", "GitHub Copilot", "AI Agents"],
-
-  motto: "Código limpo, café forte, céu estrelado ✨",
 };
 ```
 
+</td>
+<td valign="middle" align="center">
+  <img src="assets/opcao-b-quarto-lofi.gif" width="300" alt="Quarto lo-fi à noite com Eevee">
+</td>
+</tr>
+<tr>
+<td colspan="2" align="center">
+  <br>
+  <i>“Código limpo, café forte, céu estrelado.”</i> ✨
+  <br><br>
 </td>
 </tr>
 </table>
@@ -66,12 +85,21 @@ const nicolas = {
 ## 📊 GitHub Analytics
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/nickycodognotto/nickycodognotto/output/stats.svg" height="165" alt="GitHub stats">
-  <img src="https://streak-stats.demolab.com/?user=nickycodognotto&theme=radical&hide_border=true&background=1A1024&ring=C77DFF&fire=FF6EC7&currStreakLabel=FF6EC7&locale=pt_BR" height="165" alt="Streak">
+  <img src="https://raw.githubusercontent.com/nickycodognotto/nickycodognotto/output/summary/0-profile-details.svg" width="100%" alt="Perfil e contribuições">
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/nickycodognotto/nickycodognotto/output/top-langs.svg" height="200" alt="Linguagens mais usadas">
+  <img src="https://raw.githubusercontent.com/nickycodognotto/nickycodognotto/output/summary/1-repos-per-language.svg" width="49%" alt="Linguagens por repositório">
+  <img src="https://raw.githubusercontent.com/nickycodognotto/nickycodognotto/output/summary/4-productive-time.svg" width="49%" alt="Commits por hora">
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/nickycodognotto/nickycodognotto/output/summary/3-stats.svg" width="49%" alt="Stats">
+  <img src="https://raw.githubusercontent.com/nickycodognotto/nickycodognotto/output/summary/2-most-commit-language.svg" width="49%" alt="Linguagens por commit">
+</p>
+
+<p align="center">
+  <img src="https://streak-stats.demolab.com/?user=nickycodognotto&theme=radical&hide_border=true&background=1A1024&ring=C77DFF&fire=FF6EC7&currStreakLabel=FF6EC7&locale=pt_BR" height="165" alt="Streak">
 </p>
 
 <p align="center">
@@ -95,13 +123,6 @@ const nicolas = {
 </p>
 
 <br>
-
-<p align="center">
-    <a href="mailto:nicolascodognotto@gmail.com"><img src="https://img.shields.io/badge/-Gmail-2B1B4D?style=for-the-badge&logo=gmail&logoColor=C77DFF"></a>
-    <a href="https://www.linkedin.com/in/n%C3%ADcolas-codognotto-1bba4a240/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-2B1B4D?style=for-the-badge&logo=linkedin&logoColor=C77DFF"></a>
-    <a href="https://www.nicolascodognotto.com.br" target="_blank"><img src="https://img.shields.io/badge/-Portf%C3%B3lio-2B1B4D?style=for-the-badge&logo=internet-explorer&logoColor=C77DFF"></a>
-    <a href="https://instagram.com/nicko.codognotto" target="_blank"><img src="https://img.shields.io/badge/-Instagram-2B1B4D?style=for-the-badge&logo=instagram&logoColor=C77DFF"></a>
-</p>
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/25.gif" height="40" alt="Pikachu">
