@@ -36,14 +36,14 @@ const nicolas = {
   location: "São Paulo, BR 🌎",
 
   stack: {
-    languages: ["Python", "JavaScript", "Clojure"],
+    languages: ["Python", "JavaScript", "TypeScript", "Clojure"],
     frontend: ["React", "Next.js"],
     backend: ["Django", "Flask", "Node.js"],
     databases: ["PostgreSQL", "Cassandra", "MySQL"],
     cloud: ["Docker", "AWS", "Kafka"],
   },
 
-  exploring: ["LLM APIs", "GitHub Copilot", "AI Agents"],
+  exploring: ["LLM APIs", "Claude Code", "GitHub Copilot", "AI Agents"],
 };
 ```
 
@@ -60,7 +60,7 @@ const nicolas = {
 ## 🛠️ Tech Stack
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=python,js,clojure,html,css&theme=dark" alt="Linguagens"><br>
+  <img src="https://skillicons.dev/icons?i=python,js,ts,clojure,html,css&theme=dark" alt="Linguagens"><br>
   <img src="https://skillicons.dev/icons?i=django,flask,react,nextjs,nodejs&theme=dark" alt="Frameworks"><br>
   <img src="https://skillicons.dev/icons?i=postgres,mysql,cassandra,docker,aws,kafka&theme=dark" alt="Dados & Cloud"><br>
   <img src="https://skillicons.dev/icons?i=figma,ps,pr,git&theme=dark" alt="Design & Ferramentas">
@@ -69,6 +69,7 @@ const nicolas = {
 <p align="center">
   <img src="https://img.shields.io/badge/OpenAI-2B1B4D?style=for-the-badge&logo=openai&logoColor=C77DFF" alt="OpenAI">
   <img src="https://img.shields.io/badge/Anthropic-2B1B4D?style=for-the-badge&logo=anthropic&logoColor=C77DFF" alt="Anthropic">
+  <img src="https://img.shields.io/badge/Claude_Code-2B1B4D?style=for-the-badge&logo=claude&logoColor=C77DFF" alt="Claude Code">
   <img src="https://img.shields.io/badge/GitHub_Copilot-2B1B4D?style=for-the-badge&logo=githubcopilot&logoColor=C77DFF" alt="GitHub Copilot">
 </p>
 
@@ -98,9 +99,20 @@ const nicolas = {
 
 ## 🌌 Projetos
 
-| Projeto | Descrição | Stack |
-|---|---|---|
-| [Portfólio](https://www.nicolascodognotto.com.br/) | Meu site pessoal | <img src="https://skillicons.dev/icons?i=nextjs,react" height="22"> |
+<div align="center">
+<table>
+  <tr>
+    <th>Projeto</th>
+    <th>Descrição</th>
+    <th>Stack</th>
+  </tr>
+  <tr>
+    <td><a href="https://www.nicolascodognotto.com.br/">Portfólio</a></td>
+    <td>Meu site pessoal</td>
+    <td align="center"><img src="https://skillicons.dev/icons?i=nextjs,react" height="22"></td>
+  </tr>
+</table>
+</div>
 
 <p align="center">
     <img src="https://github.com/user-attachments/assets/6eb6bcca-6284-4d36-9eee-0a5e077159cb" style="border-radius: 20px" width="800">
