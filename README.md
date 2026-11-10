@@ -86,17 +86,17 @@ const nicolas = {
 ## 📊 GitHub Analytics
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/nickycodognotto/nickycodognotto/output/summary/0-profile-details.svg" width="100%" alt="Perfil e contribuições">
+  <img src="https://raw.githubusercontent.com/nickycodognotto/nickycodognotto/output/summary/0-profile-details.svg?v=2" width="100%" alt="Perfil e contribuições">
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/nickycodognotto/nickycodognotto/output/summary/1-repos-per-language.svg" width="49%" alt="Linguagens por repositório">
-  <img src="https://raw.githubusercontent.com/nickycodognotto/nickycodognotto/output/summary/4-productive-time.svg" width="49%" alt="Commits por hora">
+  <img src="https://raw.githubusercontent.com/nickycodognotto/nickycodognotto/output/summary/1-repos-per-language.svg?v=2" width="49%" alt="Linguagens por repositório">
+  <img src="https://raw.githubusercontent.com/nickycodognotto/nickycodognotto/output/summary/4-productive-time.svg?v=2" width="49%" alt="Commits por hora">
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/nickycodognotto/nickycodognotto/output/summary/3-stats.svg" width="49%" alt="Stats">
-  <img src="https://raw.githubusercontent.com/nickycodognotto/nickycodognotto/output/summary/2-most-commit-language.svg" width="49%" alt="Linguagens por commit">
+  <img src="https://raw.githubusercontent.com/nickycodognotto/nickycodognotto/output/summary/3-stats.svg?v=2" width="49%" alt="Stats">
+  <img src="https://raw.githubusercontent.com/nickycodognotto/nickycodognotto/output/summary/2-most-commit-language.svg?v=2" width="49%" alt="Linguagens por commit">
 </p>
 
 <p align="center">
